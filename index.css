@@ -1,0 +1,103 @@
+@media (max-width: 768px) {
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+}
+
+.left-side,
+.right-side {
+    flex: 1;
+}
+
+.nav-bar {
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.nav-bar a:hover {
+    background-color: #ddd;
+    color: #fff;
+}
+
+.buy-ticket,
+.submit {
+    height: 40px;
+    border-radius: 20px;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    border: 1px solid #ddd;
+    transition: all 0.3s;
+}
+
+.buy-ticket:focus,
+.submit:focus {
+    outline: none;
+    border-color: #34b4db;
+    box-shadow: 0 0 5px #34aedb;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.person-card {
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.person-image {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.person-image:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #d2c6c6;
+}
